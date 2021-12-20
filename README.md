@@ -29,18 +29,18 @@ typing
 2. WFLW  [Face Annotations](https://wywu.github.io/projects/LAB/support/WFLW_annotations.tar.gz)
 3. 将这两个文件解压并放在路径 `./data/WFLW/`
 4. 把 `Mirror98.txt` 移到 `WFLW/WFLW_annotations`
-得到如下图的文件结构
+- 得到如下图的文件结构
 ![](1.png)
 
 #### 划分WFLW数据集，换一台电脑或将项目换路径后必须重新运行一次
-然后运行下面的代码
+- 然后运行下面的代码
 ~~~shell
 $ cd data # cd 到Cvhomework/data 路径下，建议使用绝对路径
 $ python3 SetPreparation.py
 ~~~
-运行结束
+- 运行结束
 ![](1_2.png)
-最终得到如下图的文件结构
+- 最终得到如下图的文件结构
 ![](2.png)
 #### 训练和测试
 
