@@ -52,9 +52,9 @@ $ python3 SetPreparation.py
 $ cd Your_path/Cvhomework 这里是cd到这个项目的总路径下，建议使用绝对路径
 $ python3 train.py
 ~~~
-本项目已经提供了训练好的模型，可以直接测试
-测试:
-测试前，请根据实际情况修改如下图的相关配置
+- 本项目已经提供了训练好的模型，可以直接测试
+- 测试:
+- 测试前，请根据实际情况修改如下图的相关配置
 ![](4.png)
 ~~~shell
 $ cd Your_path/Cvhomework 这里是cd到这个项目的总路径下，建议使用绝对路径
