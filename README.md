@@ -38,13 +38,15 @@ typing
 $ cd data # cd 到Cvhomework/data 路径下，建议使用绝对路径
 $ python3 SetPreparation.py
 ~~~
+运行结束
+![](1_2.png)
 最终得到如下图的文件结构
 ![](2.png)
 #### 训练和测试
 
-训练:
-默认训练一百个epoch，会保存每一个epoch的数据和模型，请注意存储空间
-训练前，请根据实际情况修改如下图的相关配置
+- 训练:
+- 默认训练一百个epoch，会保存每一个epoch的数据和模型，请注意存储空间
+- 训练前，请根据实际情况修改如下图的相关配置
 ![](3.png)
 ~~~shell
 $ cd Your_path/Cvhomework 这里是cd到这个项目的总路径下，建议使用绝对路径
@@ -59,4 +61,5 @@ $ cd Your_path/Cvhomework 这里是cd到这个项目的总路径下，建议使�
 $ python3 test.py
 ~~~
 
-测试完后输出nme和平均的运行时间
+- 测试完后输出nme和平均的运行时间
+![](5.png)
