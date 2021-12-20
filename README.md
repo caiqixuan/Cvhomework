@@ -1,6 +1,6 @@
 # Cvhomework
-第一步：请下载整个文件的压缩包，并解压
-第二步：
+请下载整个文件的压缩包
+
 #### 安装库
 
 ~~~shell
@@ -38,13 +38,14 @@ $ python3 SetPreparation.py
 训练:
 
 ~~~shell
+$ cd ./Cvhomework
 $ python3 train.py
 ~~~
 
 测试:
 
 ~~~shell
-$ cd 
+$ cd ./Cvhomework
 $ python3 test.py
 ~~~
 
