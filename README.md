@@ -1,5 +1,5 @@
 # Cvhomework
-第一步：请下载这个链接的压缩包，里面已经包含了数据集等，文件比较大
+第一步：请下载整个文件的压缩包，并解压
 第二步：
 #### 安装库
 
@@ -25,11 +25,11 @@ typing
 
 1. WFLW Training and Testing images [[Google Drive](https://drive.google.com/file/d/1hzBd48JIdWTJSsATBEB_eFVvPL1bx6UC/view?usp=sharing)] [[Baidu Drive](https://pan.baidu.com/s/1paoOpusuyafHY154lqXYrA)]
 2. WFLW  [Face Annotations](https://wywu.github.io/projects/LAB/support/WFLW_annotations.tar.gz)
-3. Unzip above two packages and put them on `./data/WFLW/`
-4. move `Mirror98.txt` to `WFLW/WFLW_annotations`
+3. 将这两个文件解压并放在路径 `./data/WFLW/`
+4. 把 `Mirror98.txt` 移到 `WFLW/WFLW_annotations`
 
 ~~~shell
-$ cd data 
+$ cd data # cd 到Cvhomework/data 路径下
 $ python3 SetPreparation.py
 ~~~
 
